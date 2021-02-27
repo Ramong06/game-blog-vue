@@ -1,3 +1,3 @@
 # vue-my-website
 
-## Personal Portfolio created with Vue.js
+## A single page website created with Vue.js
