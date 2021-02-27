@@ -5,7 +5,7 @@
         <div class="container pt-3">
             <div class="row pb-5">
                 <div class="col-lg-6">
-                    <img src="" alt="">
+                    <img src="../assets/stewardess.jpg" alt="stewardess">
                 </div>
             </div>
 
@@ -37,7 +37,7 @@ export default {
 <style scoped>
 #home__page {
     background-color: aqua;
-    background: url('../assets/16-bit-skyline.jpg') no-repeat center center;
+    background: url('../assets/cartoon-background.jpg') no-repeat center center;
     opacity: 90%;
     filter: brightness(75%);
     -webkit-background-size: cover;
