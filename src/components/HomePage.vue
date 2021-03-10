@@ -4,8 +4,13 @@
     <div id="home__page" class="full-height p-4">
         <div class="container pt-3">
             <div class="row pb-5">
+                <div class="col-lg-6 pt-4 my-auto">
+                    <img id="stewardess" src="../assets/stewardess.jpg" alt="stewardess">
+                </div>
                 <div class="col-lg-6">
-                    <img src="../assets/stewardess.jpg" alt="stewardess">
+                    <div class="text-center mb-3">
+                        <h1>This is some Sample Text</h1>
+                    </div>
                 </div>
             </div>
 
@@ -44,6 +49,10 @@ export default {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#stewardess {
+    max-height: 80vh;
 }
 
 </style>
