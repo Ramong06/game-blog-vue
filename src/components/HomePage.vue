@@ -9,7 +9,8 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="text-center mb-3">
-                        <h1>This is some Sample Text</h1>
+                        <h1 class="display-3">{{ title }}</h1>
+                        <h3>Travel the World</h3>
                     </div>
                 </div>
             </div>
@@ -34,7 +35,11 @@
 
 <script>
 export default {
-
+    data () {
+        return {
+            title: 'Travel Treasury',
+        }
+    }
 }
 </script>
 
@@ -53,6 +58,7 @@ export default {
 
 #stewardess {
     max-height: 80vh;
+    max-width: 80vh;
 }
 
 </style>
