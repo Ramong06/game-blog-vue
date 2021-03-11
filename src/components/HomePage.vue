@@ -45,11 +45,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h1 {
+    color: rgba(255, 255, 255, 0.872);
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.865);
+}
+
 #home__page {
-    background-color: aqua;
-    background: url('../assets/cartoon-background.jpg') no-repeat center center;
-    opacity: 90%;
-    filter: brightness(75%);
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('../assets/mountain-and-lake.jpg') no-repeat center center;
+    filter: contrast(85%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
