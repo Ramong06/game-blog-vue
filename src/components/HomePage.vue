@@ -5,12 +5,26 @@
         <div class="container pt-3">
             <div class="row pb-5">
                 <div class="col-lg-6 pt-4 my-auto">
+                    <div class="text-center mb-3 d-block d-lg-none">
+                        <h1 class="display-3">{{ title }}</h1>
+                        <h3>Travel the World</h3>
+                    </div>
                     <img id="stewardess" src="../assets/stewardess.jpg" alt="stewardess">
                 </div>
                 <div class="col-lg-6">
-                    <div class="text-center mb-3">
+                    <div class="text-center mb-3 d-none d-lg-block">
                         <h1 class="display-3">{{ title }}</h1>
                         <h3>Travel the World</h3>
+                    </div>
+
+                    <div class="border p-3 p-md-5 bg-white rounded shadow">
+                        <h2>Coming Soon</h2>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="emailSignup">Sign Up For Your Account Here.</label>
+                                <input id="emailSignup" placeholder="Enter Email">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
