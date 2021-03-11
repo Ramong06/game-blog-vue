@@ -9,9 +9,9 @@
                         <h1 class="display-3">{{ title }}</h1>
                         <h3>Travel the World</h3>
                     </div>
-                    <img id="stewardess" src="../assets/stewardess.jpg" alt="stewardess">
+                    <img id="iphone" src="../assets/iphone-bad-crop.jpeg" alt="iphone">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 mt-4">
                     <div class="text-center mb-3 d-none d-lg-block">
                         <h1 class="display-3">{{ title }}</h1>
                         <h3>Travel the World</h3>
@@ -21,8 +21,13 @@
                         <h2>Coming Soon</h2>
                         <form action="">
                             <div class="form-group">
-                                <label for="emailSignup">Sign Up For Your Account Here.</label>
-                                <input id="emailSignup" placeholder="Enter Email">
+                                <label for="emailSignup">Sign Up For Your Account Now and We Will Contact You When We Are Live!</label>
+                                <input id="emailSignup" 
+                                placeholder="Enter Email"
+                                class="form-control"
+                                >
+                                <small id="emailHelp" class="form-text text-muted">We Will Never Share Your Email Address</small>
+                                <button type="submit" class="btn btn-success mt-3">Join Now</button>
                             </div>
                         </form>
                     </div>
@@ -72,16 +77,14 @@ h3 {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), url('../assets/mountain-and-lake.jpg') no-repeat center center;
-    filter: contrast(85%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-#stewardess {
+#iphone {
     max-height: 80vh;
-    max-width: 80vh;
 }
 
 </style>
