@@ -70,22 +70,26 @@
     </div>
 
     <div id="contact" class="bg-info p-4">
-        <h2>Have Any Questions?</h2>
-        <p>Fill Out The Form Below To Contact Us!</p>
+        <div class="row justify-content-center mt-3 mb-3">
+            <div class="col-lg-4">
+                <h2>Have Any Questions?</h2>
+                <p>Fill Out The Form Below To Contact Us!</p>
 
-        <form>
-            <div class="form-group text left">
-                <input type="email"
-                class="form-control"
-                placeholder="Enter Your Email"
-                >
-                <textarea class="form-control mt-3"
-                placeholder="Write Your Message"
-                rows="5"
-                ></textarea>
+                <form>
+                    <div class="form-group text left">
+                        <input type="email"
+                        class="form-control"
+                        placeholder="Enter Your Email"
+                        >
+                        <textarea class="form-control mt-3"
+                        placeholder="Write Your Message"
+                        rows="5"
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">SEND</button>
+                </form>
             </div>
-            <button type="submit" class="btn btn-primary">SEND</button>
-        </form>
+        </div>
     </div>
 
     <div id="footer" class="bg-primary p-4">
