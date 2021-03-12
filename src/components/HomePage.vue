@@ -40,19 +40,18 @@
     <div id="about" class="full-height p-4">
                <div class="container pt-3">
             <div class="row pb-5">
-                <div class="col-lg-6 pt-4 my-auto">
-                    <!-- <div class="text-center mb-3 d-block d-lg-none">
-                        <h1 class="display-3">{{ title }}</h1>
-                        <h3>Talk About Your Game Experience</h3>
-                    </div> -->
-                    <!-- <img id="starFox" src="../assets/star-fox.png" alt="star-fox-video-game-character"> -->
+                <div class="col-lg-4 pt-4 my-auto">
+                    <img id="subZero" src="../assets/nes-controller.png" alt="nintendo-controller-in-color">
                 </div>
-                <div class="col-lg-6 mt-4">
-                    <!-- <div class="text-center mb-3 d-none d-lg-block">
-                        <h1 class="display-3">{{ title }}</h1>
-                        <h3>Talk About Your Game Experience</h3>
-                    </div> -->
+
+                <div class="col-lg-4 mt-4">
+
                 </div>
+
+                <div class="col-lg-4 mt-4">
+
+                </div>
+
             </div>
 
         </div>
