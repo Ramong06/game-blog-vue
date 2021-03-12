@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <div id="about" class="full-height p-5">
+    <div id="about" class="bg-light p-5 p-md-7">
                <div class="container pt-3">
             <div class="row pb-5">
                 <div class="col-lg-4 pt-4 my-auto">
@@ -84,7 +84,7 @@
 export default {
     data () {
         return {
-            title: 'Gamer Blog',
+            title: 'GameBlog',
         }
     }
 }
