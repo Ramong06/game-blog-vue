@@ -70,7 +70,22 @@
     </div>
 
     <div id="contact" class="bg-info p-4">
-        Hello
+        <h2>Have Any Questions?</h2>
+        <p>Fill Out The Form Below To Contact Us!</p>
+
+        <form>
+            <div class="form-group text left">
+                <input type="email"
+                class="form-control"
+                placeholder="Enter Your Email"
+                >
+                <textarea class="form-control mt-3"
+                placeholder="Write Your Message"
+                rows="5"
+                ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">SEND</button>
+        </form>
     </div>
 
     <div id="footer" class="bg-primary p-4">
@@ -104,7 +119,7 @@ h3 {
     background: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url('../assets/16-bit-skyline.jpg') no-repeat center center;
+    ), url('../assets/city-background.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
