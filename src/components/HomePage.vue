@@ -37,19 +37,31 @@
         </div>
     </div>
 
-    <div id="about" class="full-height p-4">
+    <div id="about" class="full-height p-5">
                <div class="container pt-3">
             <div class="row pb-5">
                 <div class="col-lg-4 pt-4 my-auto">
-                    <img id="subZero" src="../assets/nes-controller.png" alt="nintendo-controller-in-color">
+                    <img id="nesController" src="../assets/nes-controller.png" alt="nintendo-controller-in-color" height="100" width="170">
+                    <h4 class="pt-3">TITLE</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum illo eum libero adipisci nesciunt voluptate impedit sequi eaque nobis 
+                        deleniti quo nam, reiciendis debitis eos autem tempora sunt itaque dolor!
+                    </p>
                 </div>
 
                 <div class="col-lg-4 mt-4">
-
+                    <img id="nesController" src="../assets/n64-controller.png" alt="nintendo64-controller" height="120" width="130">
+                    <h4 class="pt-3">TITLE</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum illo eum libero adipisci nesciunt voluptate impedit sequi eaque nobis 
+                        deleniti quo nam, reiciendis debitis eos autem tempora sunt itaque dolor!
+                    </p>
                 </div>
 
                 <div class="col-lg-4 mt-4">
-
+                    <img id="nesController" src="../assets/mario-switch.png" alt="mario-character-holding-switch" height="140" width="130">
+                    <h4 class="pt-3">TITLE</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum illo eum libero adipisci nesciunt voluptate impedit sequi eaque nobis 
+                        deleniti quo nam, reiciendis debitis eos autem tempora sunt itaque dolor!
+                    </p>
                 </div>
 
             </div>
