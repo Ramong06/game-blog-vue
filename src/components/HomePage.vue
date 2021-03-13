@@ -92,18 +92,20 @@
         </div>
     </div>
 
-    <div id="footer" class="bg-primary p-4">
-        Hello
-    </div>
-
+    <Footer />
 </div>
 </template>
 
 <script>
+import Footer from "./Footer";
+
 export default {
     data () {
         return {
             title: 'GameBlog',
+            components: {
+                Footer
+            }
         }
     }
 }
@@ -137,5 +139,13 @@ h3 {
 #about {
     min-width: 40vh;
 }
+
+#contact {
+    background-color: #57AEAF;
+}
+
+/* #footer {
+    background-color: #252223;
+} */
 
 </style>
