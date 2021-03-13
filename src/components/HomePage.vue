@@ -92,7 +92,6 @@
         </div>
     </div>
 
-    <Footer />
 </div>
 </template>
 
@@ -103,9 +102,6 @@ export default {
     data () {
         return {
             title: 'GameBlog',
-            components: {
-                Footer
-            }
         }
     }
 }
