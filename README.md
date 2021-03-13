@@ -6,3 +6,4 @@ A single page web application created Vue3.  The purpose of the site is a templa
 
 # Deployed Site
 
+https://game-blog5488.netlify.app/
